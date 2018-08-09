@@ -1,0 +1,25 @@
+{
+  "name": "trello-challenge",
+  "version": "1.0.0",
+  "description": "reto para replicar tablero de trello",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anto-caroca/Trello-challenge.git"
+  },
+  "keywords": [
+    "trello"
+  ],
+  "author": "Antonella Caroca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anto-caroca/Trello-challenge/issues"
+  },
+  "homepage": "https://github.com/anto-caroca/Trello-challenge#readme",
+  "dependencies": {
+    "save-dev": "^2.0.0"
+  }
+}
