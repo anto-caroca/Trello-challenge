@@ -1,0 +1,47 @@
+body{
+    background-color: #339cff;
+}
+nav{
+    height: 50px;
+}
+nav input{
+    width: 10%;
+    opacity: 0.5;
+}
+@font-face{
+  font-family: 'Mr Dafoe', cursive; 
+    src: url(https://fonts.google.com/specimen/Mr+Dafoe);
+}
+nav h4{
+    font-family: 'Mr Dafoe', cursive; 
+    margin-right: 50%;
+    color: white;
+}
+h4{
+    
+    text-align: left;
+    color: white;
+}
+form {
+    width:20%;
+}
+div{
+    background-color: lightgray;
+    width: 100%;
+}
+div input{
+    background-color: white;
+    margin: 5 5 5 5px;
+}
+.close{
+    position: absolute;
+}
+div #hide {
+    color: white;
+    font-weight: bold;
+    background-color: #0066cc;
+       
+}
+#nombre{
+    font-weight: bold;
+}
