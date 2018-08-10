@@ -1,30 +1,14 @@
-window.storageAvailable = function storageAvailable(type) {
-    try {
-        var storage = window[type],
-            x = '__storage_test__';
-        storage.setItem(x, x);
-        storage.removeItem(x);
-        return true;
+const obtenerTareasLocalStorage = (tareas) => {
+  
+    tareas = {"key":"value"};
+    
+      if(tareas.lenght > 0) {
+        return 'hay info en tu local storage';
+    } else if (tareas.length < 1) {
+        return 'local storage vacío';
     }
-    catch(e) {
-        return e; /* instanceof DOMException && (
-            // everything except Firefox
-            e.code === 22 ||
-            // Firefox
-            e.code === 1014 ||
-            // test name field too, because code might not be present
-            // everything except Firefox
-            e.name === 'QuotaExceededError' ||
-            // Firefox
-            e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
-            // acknowledge QuotaExceededError only if there's something already stored
-            storage.length !== 0;*/
-    }
-}
-
-if (storageAvailable('localStorage')) {
-    console.log("Yippee! We can use localStorage awesomeness");
-  }
-  else {
-    console.log("Too bad, no localStorage for us");
-  }
+    
+      return tareas;
+    };
+    
+    module.exports = obtenerTareasLocalStorage;
