@@ -10,9 +10,8 @@
     <title>Trello</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-primary">
-        
-        <input type="search">
+    <nav class="navbar navbar-dark bg-primary">  
+        <input type="search" placeholder="tableros">
         <h4>Trello</h4>
     </nav>   
     <h4>Tablero - Reto de Código</h4>
@@ -23,10 +22,10 @@
         </div>
         <div id="show">
           <input class="form-control form-control-sm" type="text" id="nombre" placeholder="nombre de la lista">
-          <input class="form-control form-control-sm" type="text" id="tarea" placeholder="añadir tarea"> 
+          <textarea class="form-control form-control-sm" type="text" id="tarea" rows="2" cols="30" placeholder="añadir tarea"></textarea> 
         </div>
         <div id="buttons">
-        <button type="button" class="btn btn-success mb-2" onclick="addForm()">Añadir</button>
+        <button type="button" class="btn btn-success mb-2" onclick="addTarea()">Añadir</button>
           <button type="button" class="close" onclick="removeTarea()" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>

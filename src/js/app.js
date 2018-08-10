@@ -7,21 +7,22 @@ hide.addEventListener('click', hideList);
 show.style.display = "none";
 tarea.style.display = "none";
 buttons.style.display = "none";
+
 function hideList(){
     hide.style.display = "none";
     show.style.display = "block";
-    tarea.style.display = "block";
+    tarea.style.display = "none";
     buttons.style.display = "block";
 }
 
-function addForm(){
+function addTarea(){
     let el = document.createElement("div");
-    
-    el.innerHTML = "<input class='form-control form-control-sm' type='text' id='tarea' placeholder='añadir tarea' >";
-    document.getElementById("show").appendChild(el);
+    el.innerHTML = "<textarea class='form-control form-control-sm' type='text' id='tarea' rows='2' cols='30' placeholder='añadir tarea'></textarea>";
+    document.getElementById("show").appendChild(el).focus(); 
 }
 
 function removeTarea(){
     let el = document.getElementById("show");
-    el.removeChild(el.childNodes[0]);
+    el.removeChild(el.lastChild);
 }
+

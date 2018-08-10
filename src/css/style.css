@@ -3,6 +3,7 @@ body{
 }
 nav{
     height: 50px;
+    
 }
 nav input{
     width: 10%;
@@ -18,12 +19,13 @@ nav h4{
     color: white;
 }
 h4{
-    
     text-align: left;
     color: white;
+    margin-left: 10px;
 }
 form {
     width:20%;
+    margin-left: 10px;
 }
 div{
     background-color: lightgray;
