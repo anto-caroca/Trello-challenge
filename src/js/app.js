@@ -18,8 +18,6 @@ function addTarea2(){
     show2.appendChild(el2).focus(); 
 }
 
- btn.addEventListener('click', addForm);
-
 function addForm(){
 form2.style.display = "block"; 
 tarea2.style.display = "none";

@@ -15,3 +15,4 @@ show.style.display = "none";
 tarea.style.display = "none";
 buttons.style.display = "none";
 
+btn.addEventListener('click', addForm);
