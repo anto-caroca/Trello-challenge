@@ -1,28 +1,92 @@
 body{
     background-color: #339cff;
 }
-nav{
-    height: 50px;
-    
+
+.searchWithIcon i{
+    position: relative;  
 }
+
+.searchWithIcon input[type=text]{
+padding-left: 40px;
+width:25%;
+color: white;
+font-weight: bold;
+}
+.searchWithIcon input[type=search]{
+    padding-left: 80px;
+    width:25%;
+}
+
+.searchWithIcon{
+    position: relative;  
+}
+
+#trello{
+position: absolute;
+left: 0;
+color: white;
+padding: 8px 8px;
+}
+
+#lupa{
+    position: absolute;
+    top: 9px;
+   padding-left: 0%;
+   transform: rotate(90deg);
+}
+    
+.set{
+    position: absolute;
+    width: 98%;
+    height: 32px;
+    padding-top: 7px;
+}
+
+#plus{
+    padding-left: 88%;
+}
+
+#info{
+    padding-left: 90%;
+}
+
+#bell{
+    padding-left: 92%;
+}
+
+nav{
+    height: 50px;  
+}
+
 nav input{
     width: 10%;
     opacity: 0.5;
 }
+
 @font-face{
   font-family: 'Mr Dafoe', cursive; 
     src: url(https://fonts.google.com/specimen/Mr+Dafoe);
 }
-nav h4{
+
+nav h4, i{
+    position: absolute;
     font-family: 'Mr Dafoe', cursive; 
-    margin-right: 50%;
+    padding-left: 50%;
     color: white;
 }
+
+#i{
+    padding-left: 49%;
+}
+
 h4{
     text-align: left;
     color: white;
     margin-left: 10px;
+    margin-top: 3px;
+    font-size: 30px;
 }
+
 form {
     width:20%;
     margin-left: 10px;
@@ -32,22 +96,26 @@ div input{
     background-color: white;
     margin: 5 5 5 5px;
 }
+
 .close{
     position: absolute;
 }
 div #hide {
     color: white;
     font-weight: bold;
-    background-color: #0066cc;
-       
+    background-color: #0066cc;    
 }
+
 #nombre, #nombre2{
     font-weight: bold;
 }
+
 #buttons2{
     margin-top: 5px;
 }
+
 #container-2{
     margin-top: 8px;
     width: 20%;
 }
+
