@@ -1,5 +1,5 @@
 body{
-    background-color: #339cff;
+    background-color: #0073e6;
 }
 
 .searchWithIcon i{
@@ -58,9 +58,13 @@ nav{
     height: 50px;  
 }
 
+#nav{
+    background-color: #0066cc;
+}
+
 nav input{
     width: 10%;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 @font-face{
@@ -68,7 +72,7 @@ nav input{
     src: url(https://fonts.google.com/specimen/Mr+Dafoe);
 }
 
-nav h4, i{
+nav h3, i{
     position: absolute;
     font-family: 'Mr Dafoe', cursive; 
     padding-left: 50%;
@@ -76,7 +80,11 @@ nav h4, i{
 }
 
 #i{
-    padding-left: 49%;
+    padding-left: 47%;
+    font-size: 30px;
+}
+h3{
+    font-size: 30px;
 }
 
 h4{
@@ -84,26 +92,30 @@ h4{
     color: white;
     margin-left: 10px;
     margin-top: 3px;
-    font-size: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 30px;
 }
+
+p{
+    color: white;
+}
+
 
 form {
     width:20%;
     margin-left: 10px;
 }
 
-div input{
-    background-color: white;
-    margin: 5 5 5 5px;
-}
-
 .close{
     position: absolute;
+    margin-left: 15px;
 }
-div #hide {
+
+ #hide {
+    background-color: #0066cc;    
     color: white;
     font-weight: bold;
-    background-color: #0066cc;    
 }
 
 #nombre, #nombre2{
@@ -115,7 +127,50 @@ div #hide {
 }
 
 #container-2{
-    margin-top: 8px;
+    margin-top: 0px;
     width: 20%;
+}
+
+#star{
+    padding-left: 110px;
+    top: 58px;
+}
+
+#lock{
+    padding-left: 4px;
+    top: 58px;
+}
+
+#p2{
+    padding-left: 30px;
+}
+
+.p-2{
+    padding-right: 20px;
+}
+
+::placeholder{ 
+    color: black;
+    opacity: 0.5; 
+}
+
+.wrap{
+    background-color: lightgray;
+}
+
+#wrap2{
+    width: 120%;
+    padding-bottom: 10px;
+}
+
+#show2{
+    width: 98%;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+#buttons2{
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
