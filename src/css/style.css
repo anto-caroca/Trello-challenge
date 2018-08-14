@@ -120,6 +120,12 @@ form {
 
 #nombre, #nombre2{
     font-weight: bold;
+    height: 40px;
+}
+
+#tarea, #tarea2{
+    margin-top: 10px;
+    height: 70px;
 }
 
 #buttons2{
